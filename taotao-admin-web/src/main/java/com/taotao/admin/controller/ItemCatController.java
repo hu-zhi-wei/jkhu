@@ -26,4 +26,11 @@ public class ItemCatController {
 		
 		return itemCatService.findAll(page,rows);
 	}
+	
+	//另外一个方法
+	@GetMapping("/sayHei")
+	public String sayHei(){
+		
+		return "say HeiYiYear";
+	}
 }
